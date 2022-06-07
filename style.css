@@ -1,0 +1,30 @@
+body{
+    background-color: chartreuse;
+}
+h1{
+    color: rgb(red, green, blue);
+    background-color: rgb(255, 0, 55);
+}
+#showsketch{
+    float: right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: quickdraw;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes quickdraw{
+    From{
+        box-shadow: 1px 1px 38px grey;
+    }
+    to{
+        box-shadow: 1px 1px 38px rgb(255, 255, 255);
+    }
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
